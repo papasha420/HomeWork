@@ -14,27 +14,21 @@ h1{
 h1::before{
   content: '';
   display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100px;
   height: 100px;
   background-color: #ff7373;
   border-radius: 50%;
   border: 5px solid #ffffff;
-  transform: translate(400px, -20px);
+  transform: translate(250px, 20px);
 }
 
 h1::after{
   content: '';
   display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 100px;
   height: 100px;
   background-color: #7377ff;
   border-radius: 50%;
   border: 5px solid #ffffff;
-  transform: translate(-400px, -20px);
+  transform: translate(-250px, 20px);
 }
